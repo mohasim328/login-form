@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&&display=swap);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    height: 450px;
+    max-width: 400px;
+    padding: 20px 50px 50px 50px;
+
+
+}
+
+.signin {
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    text-align: left;
+    font-weight: 900;
+    color: #212121;
+}
+
+.email {
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+}
+
+.password {
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+}
+
+.email input {
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-size: 16px;
+    color: #0af3c8;
+    padding-left: 10px;
+}
+
+.password input {
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding-left: 10px;
+    color: #0af3c8;
+}
+
+.btn {
+    border: none;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin: 30px 0px 20px 0px;
+    background-color: #0af3c8;
+}
+
+.btn:hover {
+    background-color: #00ffff;
+    transition: 0.3s;
+}
+
+.forget {
+    font-size: small;
+    cursor: pointer;
+    padding: 20px 0px 20px 0px;
+    text-align: right;
+    width: 100%;
+}
+
+@media only screen and (max-width:400px) {
+    .main {
+        margin: 25px;
+    width: auto;
+    }
+
+    .container {
+        width: 300px;
+        height: 420px;
+        padding: 25px;
+    }
+
+    .email,
+    .password {
+        padding: 10px 0px 0px 0px;
+    }
+}
